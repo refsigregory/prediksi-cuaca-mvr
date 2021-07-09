@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 import Home from './containers/Home';
+import Form from './components/Form';
+
 
 
 ReactDOM.render(
   <React.StrictMode>
     <Home />
+    <Form />
   </React.StrictMode>,
   document.getElementById('root')
 );
