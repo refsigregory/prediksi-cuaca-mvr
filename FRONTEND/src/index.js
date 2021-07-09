@@ -4,7 +4,7 @@ import reportWebVitals from './reportWebVitals';
 import Home from './containers/Home';
 import Form from './components/Form';
 
-
+document.title = "Aplikasi Prediksi cuaca dikota Manado menggunakan Algoritma Multiple regression"
 
 ReactDOM.render(
   <React.StrictMode>
