@@ -56,8 +56,8 @@ class Form extends React.Component {
 
             <h2>Result:</h2>
 
-            <p>Hujan: {this.state.result[0][0]}</p>
-            <p>Tidak Hujan: {this.state.result[0][1]}</p>
+            <p>Tidak Hujan: {this.state.result[0][0]}</p>
+            <p>Hujan: {this.state.result[0][1]}</p>
             <p><button class="btn btn-small btn-warning" onClick={()=>this.setState({result: []})}>Reset</button></p>
             </div>
 
