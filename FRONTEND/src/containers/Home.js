@@ -77,7 +77,7 @@ class Home extends React.Component {
                 <div className="site-content">
 
                     <div className="hero">
-
+                        <center><h1 >Aplikasi Prediksi Cuaca di Kota Manado menggunakan Algoritma Multiple Regression</h1></center>
                     </div>
                     <div className="forecast-table">
                         <div className="container">
